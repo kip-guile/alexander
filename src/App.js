@@ -1,13 +1,11 @@
 import React from 'react';
-import './App.css';
-import About from './About';
-import ContactHalf from './Contact/contactForm';
+import {Route} from 'react-router-dom'
+import Main from './main';
 
 function App() {
   return (
-    <div className="App">
-      <About/>
-      <ContactHalf/>
+    <div>
+      <Route exact path='/' component={Main}/>
     </div>
   );
 }

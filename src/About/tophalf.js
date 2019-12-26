@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Main = styled.div`
     display: flex;
-    margin-top: 1em;
+    margin-top: 1.5em;
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
@@ -30,7 +30,7 @@ const Content = styled.div`
     box-sizing: border-box;
     
     h1 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         color: #B4DDFF;
         margin: 0.8rem;
     }
@@ -39,7 +39,7 @@ const Content = styled.div`
         font-size: 0.8rem;
         margin-left: 1.5rem;
         margin: 0.5rem;
-        color: #F0F3BD;
+        color: #F9F9F9;
     }`
 
 const Figure = styled.figure`
@@ -47,16 +47,16 @@ const Figure = styled.figure`
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    width: 25%;
-    height: 45%;
+    width: 8.142rem;
+    height: 8.142rem;
     margin-top: 8rem;
     margin-right:6rem;
     border: 0.05rem solid #fff;
     
     div {
         margin-top: -3rem;
-        width: 12.63rem;
-        height: 12.63rem;
+        width: 8.142rem;
+        height: 8.142rem;
         background-image: url(https://avatars3.githubusercontent.com/u/38817414?s=460&v=4);
         background-color: #fff;
         background-size: cover;
@@ -70,7 +70,7 @@ const TopHalf = () => {
         <Main>
         <ArticleWrapper>
             <Content>
-                <h1>Full stack Developer<br/>and Business Analyst<span>.</span></h1>
+                <h1>Full stack Developer<br/> & <br/> Business Analyst<span>.</span></h1>
                 <p>Imaginative full stack developer with a passion for clean code, 
                     collaboration, and bringing delightful ideas to fruition.</p> 
                 <p>Business Analyst with experience in Needs Assessment, 

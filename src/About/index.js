@@ -8,7 +8,7 @@ const AboutBlock = styled.section`
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding-bottom: 4.17rem;
+    padding-bottom: 5rem;
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, #000019 70%, #001F56 30%);`
