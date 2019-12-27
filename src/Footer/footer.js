@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
 
 const Main = styled.div`
     display: flex;
@@ -39,12 +40,26 @@ const Second = styled.div`
         list-style-type: none;
         justify-content: space-between;
 
+        a.navlink:hover {
+            color: whitesmoke;
+            letter-spacing: 1px;
+            transition: all 0.4s ease 0s;
+            box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        }
+
         li {
             margin-bottom: 1rem;
 
             a {
                 color: currentColor;
                 text-decoration: none;
+            }
+
+            a:hover {
+                color: whitesmoke;
+                letter-spacing: 1px;
+                transition: all 0.4s ease 0s;
+                box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
             }
         }
     }`
@@ -73,6 +88,18 @@ const Third = styled.div`
             list-style-type: none;
             justify-content: space-between;
             align-self: flex-end;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                color: whitesmoke;
+                letter-spacing: 1px;
+                transition: all 0.4s ease 0s;
+                box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+            }
         }
     }`
 
@@ -89,18 +116,18 @@ const FooterDiv = () => {
                     </ul>
                 </div>
                 <ul>
-                    <li><a>Projects</a></li>
-                    <li><a>Resume</a></li>
+                <NavLink to = {'/projects'} className='navlink' style={{ textDecoration: 'none', color: 'white' }}><li>Projects</li></NavLink>
+                    <li>Resume</li>
                 </ul>
             </Second>
             <Third>
                 <span>© Alexander Oguejiofor 2019</span>
                 <div>
                     <ul>
-                        <li><a>LinkedIn</a></li>
-                        <li>Goodreads</li>
-                        <li>Twitter</li>
-                        <li>Github</li>
+                        <li><a href='https://www.linkedin.com/in/alexanderoguejiofor/' rel="noopener noreferrer" target="_blank" >LinkedIn</a></li>
+                        <li><a href='https://www.goodreads.com/user/show/26479310-pokerface' rel="noopener noreferrer" target="_blank" >Goodreads</a></li>
+                        <li><a href='https://twitter.com/master_elodin' rel="noopener noreferrer" target="_blank" >Twitter</a></li>
+                        <li><a href='https://github.com/kip-guile' rel="noopener noreferrer" target="_blank" >Github</a></li>
                     </ul>
                 </div>
             </Third>
