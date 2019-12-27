@@ -15,6 +15,7 @@ const Main = styled.section`
     
     div {
         align-items: center;
+        background-color: whitesmoke;
         display: flex;
         justify-content: space-around;
         width: 90%;
@@ -40,7 +41,7 @@ const Main = styled.section`
                 box-sizing: border-box;
                 justify-content: center;
                 align-items: center;
-                border: 0.05rem solid #fff;
+                border: 0.10rem solid #05668D;
 
                 div {
                     width: 100%;
@@ -88,6 +89,18 @@ const Main = styled.section`
                         font-size: 0.7rem;
                         color: white;
                         padding: 0.3rem;
+
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+
+                        a:hover {
+                            color: whitesmoke;
+                            letter-spacing: 1px;
+                            transition: all 0.4s ease 0s;
+                            box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+                        }
                     }
                 }
             }
@@ -115,8 +128,8 @@ const Section = () => {
                     </figure>
                     <div className='links'>
                         <ul>
-                            <li>Application</li>
-                            <li>Github</li>
+                            <li><a href='https://split-the-bill-six-alpha.now.sh/'>Application</a></li>
+                            <li><a href='https://github.com/kip-guile/split-the-bill'>Github</a></li>
                         </ul>
                     </div>
                 </div>

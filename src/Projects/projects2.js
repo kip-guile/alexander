@@ -12,13 +12,16 @@ const Main = styled.section`
     box-sizing: border-box;
     padding: 0 3rem;
     background-color: #F9F9F9;
+    /* border-top: 0.05rem solid currentColor; */
 
-    div.cover {
+    /* div.cover {
         border-top: 0.05rem solid currentColor;
-    }
+        border-top-width: 90%;
+    } */
     
     div {
         align-items: center;
+        background-color: whitesmoke;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -45,7 +48,7 @@ const Main = styled.section`
                 box-sizing: border-box;
                 justify-content: center;
                 align-items: center;
-                border: 0.05rem solid #fff;
+                border: 0.10rem solid #05668D;
 
                 div {
                     width: 100%;
@@ -76,7 +79,7 @@ const Main = styled.section`
             .links {
                 display: flex;
                 box-sizing: border-box;
-                width: 90%;
+                width: 95%;
                 height: 15%;
 
                 ul {
@@ -90,9 +93,26 @@ const Main = styled.section`
 
                     li {
                         background-color: #247BA0;
-                        font-size: 0.7rem;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                        margin: 0.1rem;
+                        font-size: 0.5rem;
                         color: white;
-                        padding: 0.3rem;
+                        padding: 0.2rem;
+                        font-weight: bold;
+
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+
+                        a:hover {
+                            color: whitesmoke;
+                            letter-spacing: 1px;
+                            transition: all 0.4s ease 0s;
+                            box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+                        }
                     }
                 }
             }
@@ -120,8 +140,9 @@ const Section2 = () => {
                     </figure>
                     <div className='links'>
                         <ul>
-                            <li>Application</li>
-                            <li>Github</li>
+                            <li><a href='https://bug-tracker-frontend.now.sh/'>Application</a></li>
+                            <li><a href='https://github.com/kip-guile/Bug-Tracker'>Github Backend</a></li>
+                            <li><a href='https://github.com/kip-guile/bug-tracker-frontend'>Github Frontend</a></li>
                         </ul>
                     </div>
                 </div>

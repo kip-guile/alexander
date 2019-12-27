@@ -43,7 +43,8 @@ const Main = styled.section`
                 margin-top: 1em;
                 font-size: 0.9em;
                 font-weight: bold;
-                color: currentColor;
+                color: white;
+                background-color: #247BA0;
                 letter-spacing: 0.1em;
                 text-transform: uppercase;
                 padding: 0.6em;
@@ -51,6 +52,13 @@ const Main = styled.section`
                 padding-right: 1.5em;
                 border: 0;
                 cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #05668D;
+                letter-spacing: 1px;
+                transition: all 0.4s ease 0s;
+                box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
             }
 
             .message {
@@ -97,12 +105,12 @@ const Main = styled.section`
                     }
                     
                     textarea:focus::placeholder {
-                        color: green;
+                        color: #247BA0;
                     }
 
                     textarea:focus {
                         outline:none;
-                        border-bottom: 1px solid green;
+                        border-bottom: 1px solid #247BA0;
                     }
                 }
             }
@@ -145,12 +153,12 @@ const Main = styled.section`
                     }
                     
                     input:focus::placeholder {
-                        color: green;
+                        color: #247BA0;
                     }
 
                     input:focus {
                         outline:none;
-                        border-bottom: 1px solid green;
+                        border-bottom: 1px solid #247BA0;
                     }
                 }
             }

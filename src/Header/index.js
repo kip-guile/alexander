@@ -29,6 +29,18 @@ const HeaderBlock = styled.header`
             width: 100%;
         }
 
+        a.navlink {
+           text-decoration: none;
+           color: #001F56; 
+        }
+
+        a.navlink:hover {
+            color: #05668D;
+            letter-spacing: 1px;
+            transition: all 0.4s ease 0s;
+            box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        }
+
         ul{
         display: flex;
         font-size: 0.9rem;
@@ -81,7 +93,7 @@ const Header = () => {
             <div>
             <nav className='hidenav'>
                 <ul>
-                    <li><NavLink to = {'/projects'} style={{ textDecoration: 'none', color: '#001F56' }}>Projects</NavLink></li>
+                    <li><NavLink to = {'/projects'} className='navlink' >Projects</NavLink></li>
                     <li>Resume</li>
                 </ul>
             </nav>
