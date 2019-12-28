@@ -14,14 +14,12 @@ const Main = styled.section`
     background-color: #F9F9F9;
     /* border-top: 0.05rem solid currentColor; */
 
-    /* div.cover {
+    div.cover {
         border-top: 0.05rem solid currentColor;
-        border-top-width: 90%;
-    } */
+    }
     
     div {
         align-items: center;
-        background-color: whitesmoke;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -48,7 +46,9 @@ const Main = styled.section`
                 box-sizing: border-box;
                 justify-content: center;
                 align-items: center;
-                border: 0.10rem solid #05668D;
+                /* border: 0.10rem solid #05668D; */
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
 
                 div {
                     width: 100%;
@@ -73,7 +73,8 @@ const Main = styled.section`
                 box-sizing: border-box;
                 width: 95%;
                 height: 75%;
-                background-color: darkgray;
+                font-size: 0.7rem;
+                text-align: left;
             }
 
             .links {
@@ -101,6 +102,7 @@ const Main = styled.section`
                         color: white;
                         padding: 0.2rem;
                         font-weight: bold;
+                        border-radius: 0.2rem;
 
                         a {
                             color: white;
@@ -129,7 +131,12 @@ const Section2 = () => {
                         <h1>Bug Tracker</h1>
                     </div>
                     <div className='content'>
-
+                        <p>This is a bug tracking application that allows developers working on projects to manage bugs.</p>
+                        <p>The user can create, update and delete projects. Also, they can create, update and change the status of bugs assigned to a project.
+                            I worked as the only developer on this project, building both the backend and frontend from the ground up.</p>
+                        <p>As the only developer on this project, my roles included handling authentication and authorization both on the 
+                            Frontend and Backend, creating and managing all calls to the database, creating all API endpoints and middlewares on the Backend.
+                            On the frontend, I setup redux to manage state and handled the design using the Ant design framework.</p>     
                     </div>
                 </div>
                 <div>

@@ -15,7 +15,6 @@ const Main = styled.section`
     
     div {
         align-items: center;
-        background-color: whitesmoke;
         display: flex;
         justify-content: space-around;
         width: 90%;
@@ -41,7 +40,9 @@ const Main = styled.section`
                 box-sizing: border-box;
                 justify-content: center;
                 align-items: center;
-                border: 0.10rem solid #05668D;
+                /* border: 0.10rem solid #05668D; */
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
 
                 div {
                     width: 100%;
@@ -66,7 +67,8 @@ const Main = styled.section`
                 box-sizing: border-box;
                 width: 95%;
                 height: 75%;
-                background-color: darkgray;
+                font-size: 0.7rem;
+                text-align: left;
             }
 
             .links {
@@ -89,6 +91,7 @@ const Main = styled.section`
                         font-size: 0.7rem;
                         color: white;
                         padding: 0.3rem;
+                        border-radius: 0.2rem;
 
                         a {
                             color: white;
@@ -117,7 +120,16 @@ const Section = () => {
                         <h1>Split the Bill</h1>
                     </div>
                     <div className='content'>
-
+                        <p>This React.js application allows a user to create a bill and split it among friends
+                            registered on the platform.
+                        </p>
+                        <p>The user can create a bill, update a bill when it has been paid, split bills between friends,
+                            and confirm paid bills. This project was created by two developers.
+                        </p>
+                        <p>As the only frontend architect on this project, my role included handling authentication on the front end, setting up and
+                            handling state using redux, handling and laying out CRUD operations on the frontend, and using the Ant design framework
+                            for styling.
+                        </p>
                     </div>
                 </div>
                 <div>

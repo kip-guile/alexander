@@ -52,6 +52,7 @@ const Main = styled.section`
                 padding-right: 1.5em;
                 border: 0;
                 cursor: pointer;
+                border-radius: 0.2rem;
             }
 
             button:hover {
