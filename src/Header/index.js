@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import styled, {ThemeProvider} from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import './header.css'
+// import './header.css'
 
 // .navbar {
 //     transition: top 0.6s;
