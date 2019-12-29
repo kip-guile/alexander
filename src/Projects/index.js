@@ -10,7 +10,7 @@ function Projects() {
     <div className="App">
       <Header/>
       <Section/>
-      <Section2/>
+      <Section2 />
       <Footer/>
     </div>
   );
