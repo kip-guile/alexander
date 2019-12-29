@@ -1,19 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import styled, {ThemeProvider} from 'styled-components'
 import { NavLink } from 'react-router-dom'
-// import './header.css'
-
-// .navbar {
-//     transition: top 0.6s;
-//   }
-  
-//   .navbarHidden {
-//     top: -7rem;
-//   }
 
 const HeaderBlock = styled.header`
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
@@ -33,10 +24,12 @@ const HeaderBlock = styled.header`
         display: flex;
         box-sizing: border-box;
         width: 30%;
+        height: 100%;
 
         nav {
             display: flex;
             width: 100%;
+            height: 100%;
         }
 
         a.navlink {
@@ -49,12 +42,15 @@ const HeaderBlock = styled.header`
             letter-spacing: 1px;
             transition: all 0.4s ease 0s;
             box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+            border-bottom: 0.10rem solid whitesmoke;
+            padding-bottom: 1.4rem;
         }
 
         ul{
         display: flex;
         font-size: 1.2rem;
         width: 100%;
+        height: 100%;
         margin: 0;
         box-sizing: border-box;
         padding: 0;
@@ -62,6 +58,7 @@ const HeaderBlock = styled.header`
         justify-content: space-around;
         color: white;
         font-weight: bold;
+        align-items: center;
         }
     }`
 
