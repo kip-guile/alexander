@@ -15,7 +15,8 @@ const HeaderBlock = styled.header`
     top: 0;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
+    background-color: #393F4A;
+    /* background: transparent; */
     /* background-color: green; */
     
     
@@ -31,11 +32,11 @@ const HeaderBlock = styled.header`
 
         a.navlink {
            text-decoration: none;
-           color: #001F56; 
+           color: white; 
         }
 
         a.navlink:hover {
-            color: #05668D;
+            color: whitesmoke;
             letter-spacing: 1px;
             transition: all 0.4s ease 0s;
             box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -50,7 +51,7 @@ const HeaderBlock = styled.header`
         padding: 0;
         list-style-type: none;
         justify-content: space-around;
-        color: #001F56;
+        color: white;
         font-weight: bold;
         }
     }`

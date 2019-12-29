@@ -6,7 +6,7 @@ const Main = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #001F56;
+    color: #222;
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
@@ -44,7 +44,7 @@ const Main = styled.section`
                 font-size: 1.2rem;
                 font-weight: bold;
                 color: white;
-                background-color: #247BA0;
+                background-color: #393F4A;
                 letter-spacing: 0.1em;
                 text-transform: uppercase;
                 padding: 0.6em;
@@ -56,7 +56,7 @@ const Main = styled.section`
             }
 
             button:hover {
-                background-color: #05668D;
+                background-color: #3A3838;
                 letter-spacing: 1px;
                 transition: all 0.4s ease 0s;
                 box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -110,12 +110,12 @@ const Main = styled.section`
                     }
                     
                     textarea:focus::placeholder {
-                        color: #247BA0;
+                        color: #393F4A;
                     }
 
                     textarea:focus {
                         outline:none;
-                        border-bottom: 1px solid #247BA0;
+                        border-bottom: 1px solid #393F4A;
                     }
                 }
             }
@@ -161,12 +161,12 @@ const Main = styled.section`
                     }
                     
                     input:focus::placeholder {
-                        color: #247BA0;
+                        color: #393F4A;
                     }
 
                     input:focus {
                         outline:none;
-                        border-bottom: 1px solid #247BA0;
+                        border-bottom: 1px solid #393F4A;
                     }
                 }
             }

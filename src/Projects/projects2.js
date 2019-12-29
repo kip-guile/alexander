@@ -6,7 +6,7 @@ const Main = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #001F56;
+    color: #3A3838;
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
@@ -93,7 +93,7 @@ const Main = styled.section`
                     justify-content: space-evenly;
 
                     li {
-                        background-color: #247BA0;
+                        background-color: #393F4A;
                         display: flex;
                         justify-content: center;
                         align-items: center;

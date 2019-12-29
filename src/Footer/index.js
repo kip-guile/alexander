@@ -11,7 +11,7 @@ const FooterBlock = styled.footer`
     color: #F9F9F9;
     justify-content: center;
     align-items: center;
-    background-color: #001F56;`
+    background-color: #393F4A;`
 
 const Footer = () => {
 

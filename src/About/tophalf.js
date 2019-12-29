@@ -31,7 +31,7 @@ const Content = styled.div`
     
     h1 {
         font-size: 2.5rem;
-        color: #001F56;
+        color: #222;
         margin: 0.8rem;
     }
     
@@ -39,7 +39,7 @@ const Content = styled.div`
         font-size: 1.3rem;
         margin-left: 1.5rem;
         margin: 0.5rem;
-        color: #247BA0;
+        color: #393F4A;
     }`
 
 const Figure = styled.figure`
@@ -51,7 +51,7 @@ const Figure = styled.figure`
     height: 16.284rem;
     margin-top: 8rem;
     margin-right:6rem;
-    border: 0.05rem solid #001F56;
+    border: 0.05rem solid #F9F9F9;
     
     div {
         margin-top: -3rem;
