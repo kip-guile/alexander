@@ -12,7 +12,7 @@ const Main = styled.div`
     box-sizing: border-box;
     width: 100%;
     height: 70%;
-    font-size: 0.6rem;`
+    font-size: 1rem;`
 
 const Second = styled.div`
     display: flex;

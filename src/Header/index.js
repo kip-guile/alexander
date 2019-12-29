@@ -43,7 +43,7 @@ const HeaderBlock = styled.header`
 
         ul{
         display: flex;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         width: 100%;
         margin: 0;
         box-sizing: border-box;

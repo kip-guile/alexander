@@ -30,13 +30,13 @@ const Content = styled.div`
     box-sizing: border-box;
     
     h1 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         color: #001F56;
         margin: 0.8rem;
     }
     
     p {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
         margin-left: 1.5rem;
         margin: 0.5rem;
         color: #247BA0;
@@ -47,16 +47,16 @@ const Figure = styled.figure`
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    width: 8.142rem;
-    height: 8.142rem;
+    width: 16.284rem;
+    height: 16.284rem;
     margin-top: 8rem;
     margin-right:6rem;
     border: 0.05rem solid #001F56;
     
     div {
         margin-top: -3rem;
-        width: 8.142rem;
-        height: 8.142rem;
+        width: 16.284rem;
+        height: 16.284rem;
         background-image: url(https://avatars3.githubusercontent.com/u/38817414?s=460&v=4);
         background-color: #fff;
         background-size: cover;

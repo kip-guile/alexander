@@ -35,8 +35,8 @@ const Main = styled.section`
             justify-content: space-evenly;
 
             figure {
-                width: 16.7em;
-                height: 5.426em;
+                width: 25.05em;
+                height: 8.139em;
                 box-sizing: border-box;
                 justify-content: center;
                 align-items: center;
@@ -57,6 +57,7 @@ const Main = styled.section`
             .header {
                 display: flex;
                 box-sizing: border-box;
+                font-size: 1.3rem;
                 width: 90%;
                 height: 15%;
             }
@@ -67,7 +68,7 @@ const Main = styled.section`
                 box-sizing: border-box;
                 width: 95%;
                 height: 75%;
-                font-size: 0.7rem;
+                font-size: 1.2rem;
                 text-align: left;
             }
 
@@ -88,7 +89,7 @@ const Main = styled.section`
 
                     li {
                         background-color: #247BA0;
-                        font-size: 0.7rem;
+                        font-size: 1.3rem;
                         color: white;
                         padding: 0.3rem;
                         border-radius: 0.2rem;

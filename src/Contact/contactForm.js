@@ -41,7 +41,7 @@ const Main = styled.section`
 
             button {
                 margin-top: 1em;
-                font-size: 0.9em;
+                font-size: 1.2rem;
                 font-weight: bold;
                 color: white;
                 background-color: #247BA0;
@@ -68,17 +68,21 @@ const Main = styled.section`
                 box-sizing: border-box;
                 align-items: center;
                 display: flex;
+                padding: 0;
 
                 div {
                     width: 100%;
                     margin-top: 0.5em;
                     display: flex;
                     flex-direction: column;
+                    padding: 0;
                     align-items: flex-start;
 
                     textarea {
                         border-color: currentColor;
+                        font-size: 1rem;
                         color: currentColor;
+                        text-align: center;
                         font-family: inherit;
                         width: 100%;
                         padding: 0.3em;
@@ -123,8 +127,9 @@ const Main = styled.section`
                 font-family: inherit;
                 justify-content: space-between;
                 box-sizing: border-box;
+                padding: 0;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: space-around;
 
                 div {
                     width: 40%;
@@ -135,13 +140,15 @@ const Main = styled.section`
 
                     .span {
                         /* width: 100%; */
-                        font-size: 0.7em;
+                        font-size: 1.2rem;
                         padding-bottom: 1em;
-
+                        text-align: center;
                     }
 
                     input {
                         border-color: currentColor;
+                        box-sizing: border-box;
+                        width: 100%;
                         border: 0;
                         color: currentColor;
                         margin-top: 0.5em;
@@ -174,7 +181,7 @@ const Main = styled.section`
             h1 {
                 transform: translate3d(0, 0, 0);
                 opacity: 1;
-                font-size: 2em;
+                font-size: 2.5rem;
                 font-weight: bold;
                 line-height: 1;
                 max-width: unset;
@@ -190,7 +197,7 @@ const Main = styled.section`
                 transform: translate3d(0, 0, 0);
                 opacity: 1; 
                 margin: 0 auto;
-                font-size: 1em;
+                font-size: 1.5rem;
                 line-height: 1.5;
                 margin-top: 15px;
                 letter-spacing: 0.02em;

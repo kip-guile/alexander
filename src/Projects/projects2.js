@@ -41,8 +41,8 @@ const Main = styled.section`
             justify-content: space-evenly;
 
             figure {
-                width: 16.7em;
-                height: 5.426em;
+                width: 25.05em;
+                height: 8.139em;
                 box-sizing: border-box;
                 justify-content: center;
                 align-items: center;
@@ -73,7 +73,7 @@ const Main = styled.section`
                 box-sizing: border-box;
                 width: 95%;
                 height: 75%;
-                font-size: 0.7rem;
+                font-size: 1.2rem;
                 text-align: left;
             }
 
@@ -96,9 +96,9 @@ const Main = styled.section`
                         background-color: #247BA0;
                         display: flex;
                         justify-content: center;
-                        align-content: center;
+                        align-items: center;
                         margin: 0.1rem;
-                        font-size: 0.5rem;
+                        font-size: 1.2rem;
                         color: white;
                         padding: 0.2rem;
                         font-weight: bold;
