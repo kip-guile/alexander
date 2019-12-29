@@ -1,7 +1,15 @@
 import React, {useState, useEffect} from 'react'
-import styled from 'styled-components'
+import styled, {ThemeProvider} from 'styled-components'
 import { NavLink } from 'react-router-dom'
 import './header.css'
+
+// .navbar {
+//     transition: top 0.6s;
+//   }
+  
+//   .navbarHidden {
+//     top: -7rem;
+//   }
 
 const HeaderBlock = styled.header`
     width: 100%;
@@ -16,9 +24,10 @@ const HeaderBlock = styled.header`
     justify-content: space-between;
     align-items: center;
     background-color: #393F4A;
+    transition: top 0.6s;
+    top: ${props => props.theme.hidden};
     /* background: transparent; */
     /* background-color: green; */
-    
     
     div {
         display: flex;
@@ -60,6 +69,14 @@ const Header = () => {
 
     let [pos, setPos] = useState(window.pageYOffset)
     let [visible, setVisible] = useState(true)
+
+    const theme ={
+        hidden: "-7rem"
+    }
+
+    const untheme = {
+        hidden: "0rem"
+    }
     
     useEffect(()=> {
        const handleScroll = () => {
@@ -75,6 +92,7 @@ const Header = () => {
     })
 
     return (
+        <ThemeProvider theme={!visible ? theme : untheme}>
         <HeaderBlock className={"navbar " + (!visible ? "navbarHidden" : " ")}>
             <NavLink to = {'/'}>
             <svg width="183.3" height="29" viewBox="0 0 550 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,6 +118,7 @@ const Header = () => {
             </nav>
             </div>
         </HeaderBlock>
+        </ThemeProvider>
     )
 }
 
