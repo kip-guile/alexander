@@ -117,7 +117,7 @@ const FooterDiv = () => {
                 </div>
                 <ul>
                 <NavLink to = {'/projects'} className='navlink' style={{ textDecoration: 'none', color: 'white' }}><li>Projects</li></NavLink>
-                    <li>Resume</li>
+                    <li><a href='https://res.cloudinary.com/pureretail/image/upload/v1578061198/private/Alexander_Oguejiofor_-_FS_nce7x3.pdf' rel="noopener noreferrer" target="_blank" >Resume</a></li>
                 </ul>
             </Second>
             <Third>
